@@ -1,0 +1,38 @@
+/* you can add to or change this. */
+header {
+  height: 30px;
+  width: 100%;
+}
+
+#header-name {
+  color: black;
+  font-family: 'Work Sans', sans-serif;
+  float: right;
+  margin-right: 25px;
+  padding-top: 7px;
+}
+
+h1 {
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+#game {
+  margin: auto;
+  width: 65%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+#game div {
+  border: 1px solid black;
+  border-radius: 4px;
+  width: 100px;
+  height: 120px;
+  margin: 20px;
+  display: inline-block;
+  cursor: pointer;
+  transition-duration: 0.2s;
+  box-shadow: 2px 2px 8px grey;
+}
